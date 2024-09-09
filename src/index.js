@@ -1,5 +1,6 @@
 import "./styles.css";
-import { greeting } from "./greeting.js";
+import { createHomePage } from "./home.js";
+ 
 
 
-console.log(greetings);
+createHomePage();
