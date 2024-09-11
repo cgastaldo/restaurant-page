@@ -5,6 +5,6 @@ import { createAboutPage } from "./about.js";
  
 
 
-createHomePage();
+//createHomePage();
 createMenuPage();
-createAboutPage():
+//createAboutPage():
