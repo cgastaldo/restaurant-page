@@ -17,9 +17,6 @@ export function createMenuPage(){
     createFoodList();
 }
 
-
-
-
 function createBeverageList(){
     let bev1Title = "Water";
     let bev1Descr = "Quench your thirst with the original";
