@@ -24,3 +24,23 @@ img{
     width: 300px;
     justify-items:center;
 }
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display:flex;
+    gap: 1em;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    border-radius: 20%;
+}
+
+#wonderful{
+    display:grid;
+}

@@ -2,7 +2,15 @@
 const contactContent = document.querySelector("#content");
 
 export function createContactPage(){
-    createContacts()
+    const contactHeader = document.createElement('div');
+    contactHeader.id = 'headline';
+    const contactTitle = document.createElement('h1');
+    contactTitle.textContent = "Contacts";
+    contactHeader.append(contactTitle);
+
+    contactContent.append(contactHeader);
+    createContacts();
+
 }
 
 function createContacts(){

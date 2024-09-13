@@ -6,7 +6,7 @@ export function createHomePage(){
     const headline = document.createElement('div');
     headline.id = 'headline';
     const headlineContent = document.createElement('h1');
-    headlineContent.textContent = "Really catchy headline";
+    headlineContent.textContent = "Legit Restaurant";
     headline.append(headlineContent);
 
     homeContent.appendChild(headline);

@@ -46,7 +46,7 @@ function createFoodList(){
     createEntry(food2Title, food2Descr, food2Price, food2Image);
 
     let food3Title = "Flame-grilled Steak with Vegetables";
-    let food3Descr = "Product may vary";
+    let food3Descr = "Product may vary from image";
     let food3Price = 95;
     let food3Image = steak;
     createEntry(food3Title, food3Descr, food3Price, food3Image);
