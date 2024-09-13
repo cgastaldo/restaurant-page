@@ -2,10 +2,10 @@
 const contactContent = document.querySelector("#content");
 
 export function createContactPage(){
-
+    createContacts()
 }
 
-function createContacts{
+function createContacts(){
     let contact1Name = "Buddy Johnson";
     let contact1Phone = "111-111-1111";
     let contact1Email ="buddy@email.com";
